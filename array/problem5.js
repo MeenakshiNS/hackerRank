@@ -5,3 +5,12 @@
 // "Red,Green,White,Black"
 // "Red+Green+White+Black"
 const myColor = ["Red", "Green", "White", "Black"];
+
+let firstOutput=myColor.join();
+console.log(firstOutput);
+
+
+let secondOutput=myColor.join('+');
+console.log(secondOutput);
+
+
