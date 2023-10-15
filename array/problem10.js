@@ -1,3 +1,6 @@
+//👺 doubt
+
+
 /* 
 Write a JavaScript program that prints the elements of the following array.
 Note : Use nested for loops.

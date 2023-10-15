@@ -9,3 +9,16 @@ Write a JavaScript program to display the colors in the following way :
 - - - - - - - - - - - - -
 Note : Use ordinal numbers to tell their position.-->means 1st,2nd ,3rd
  */
+
+function colors(color) {
+  let ordinal = ["st", "nd", "rd"];
+  for (let i = 0; i < color.length; i++) {
+    if (i >= 3) {
+      ordinal[i] = "th";
+    }
+    console.log(`${i + 1}${ordinal[i]} choice is ${color[i]}`);
+  }
+}
+
+colors(["Blue ", "Green", "Red", "Orange", "Violet", "Indigo", "Yellow "]);
+
