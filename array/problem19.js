@@ -1,4 +1,4 @@
-//doubt 👺
+//dbt 👺
 
 /*Write a JavaScript program to flatten a nested (any depth) array. If you pass shallow, the array will only be flattened to a single level.
 Sample Data :
