@@ -6,3 +6,13 @@ true
 console.log(is_string([1, 2, 4, 0]));
 false
  */
+
+function is_string(input){
+  if(typeof(input)==='string'){
+    console.log('its a string');
+  }else{
+    console.log('not string');
+  }
+}
+is_string('meenu');
+is_string([1, 2, 4, 0])
