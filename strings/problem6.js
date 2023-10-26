@@ -10,7 +10,7 @@ function protect_email(mail){
     const part2=splitted[1]   //'example.com'
      const avg= part1.length/2 //5.5
 
-     let part=part1.substring(0,avg);  //robin
+     let part=part1.substring(0,avg);  //robin  //imp
      return part+'...@'+part2
 }
 
