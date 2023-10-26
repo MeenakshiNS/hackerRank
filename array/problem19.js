@@ -24,7 +24,7 @@ function union(arra1, arra2) {
    
     let res = [];
    
-    for (var n in obj)
+    for (let n in obj)
     {
     
       if (obj.hasOwnProperty(n)) 
