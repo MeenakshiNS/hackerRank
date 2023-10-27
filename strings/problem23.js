@@ -8,3 +8,9 @@ Output :
 "w3resource"
 "w3resource"
  */
+function strip(input){
+    return input.trim();
+}
+console.log(strip('w3resource '));
+console.log(strip(' w3resource'));
+console.log(strip(' w3resource '));

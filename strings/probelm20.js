@@ -1,4 +1,5 @@
-/* Write a JavaScript function that can pad (left, right) a string to get to a specific length.
+/* Write a JavaScript function that can pad 
+(left, right) a string to get to a specific length.
 Test Data :
 console.log(formatted_string('0000',123,'l'));
 console.log(formatted_string('00000000',123,''));

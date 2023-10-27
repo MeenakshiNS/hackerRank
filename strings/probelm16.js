@@ -1,5 +1,8 @@
 /*
-Write a JavaScript function to truncate a string if it is longer than the specified number of characters. Truncated strings will end with a translatable ellipsis sequence ("...") (by default) or specified characters.
+Write a JavaScript function to truncate a string 
+if it is longer than the specified number of characters.
+ Truncated strings will end with a translatable ellipsis sequence ("...")
+  (by default) or specified characters.
 Test Data :
 console.log(text_truncate('We are doing JS string exercises.'))
 console.log(text_truncate('We are doing JS string exercises.',19))
